@@ -6,7 +6,7 @@ If item exist in the given cost values, the item is ignored.
 Output should be rounded to two decimal places.
 '''
 
-
+# La función suma el costo de los artículos comprados que están en el diccionario de costos y luego aplica la tasa de impuesto al total. El resultado se redondea a dos decimales.
 def calculate_total_cost(item_costs, items_bought, tax_rate):
     total_cost = 0
     for item in items_bought:
